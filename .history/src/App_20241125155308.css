@@ -1,0 +1,89 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9ecef; /* Lichte achtergrondiekleur voor contrast */
+}
+
+/* Hoofddashboard styling */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #ffffff; /* Witte achtergrond voor het dashboard */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Hoofdtitel styling */
+.dashboard h1 {
+  font-size: 2.8rem;
+  color: #343a40; /* Donkere primaire kleur */
+  margin-bottom: 10px;
+}
+
+/* Hoofdpagina tekst */
+.dashboard p {
+  font-size: 1.1rem;
+  color: #6c757d; /* Lichte tekstkleur */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Kaarten voor functionaliteit */
+.card {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa; /* Achtergrond kleur voor kaarten */
+  width: 300px; /* Breedte voor kaarten */
+  text-align: center;
+}
+
+/* Knop styling */
+.dashboard button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff; /* Hoogte-prioriteitskleur */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard button:hover {
+  background-color: #0056b3; /* Donkere schaduw bij hover */
+}
+
+/* Navbar styling */
+.navbar {
+  padding: 20px;
+  background-color: #343a40; /* Donkere achtergrond */
+  color: #ffffff;
+}
+
+/* Footer styling */
+.footer {
+  padding: 20px;
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .dashboard h1 {
+    font-size: 2.2rem;
+  }
+
+  .dashboard p {
+    font-size: 1rem;
+  }
+}

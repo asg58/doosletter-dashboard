@@ -4,10 +4,10 @@ import React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { CssBaseline } from '@mui/material';
-import Home from './pages/Home'; // Zorg ervoor dat Home.js ook bestaat
-import Sidebar from './components/layout/Sidebar';
-import AppBar from './components/layout/AppBar';
-import Option1 from './pages/Option1';
+import Home from './pages/Home';
+import Sidebar from './components/Sidebar';
+import AppBar from './components/AppBar';
+import Option1 from './pages/Option1'; // Zorg ervoor dat voorgaande pagina's zijn aangemaakt
 import Option2 from './pages/Option2';
 
 const theme = createTheme({

@@ -7,6 +7,16 @@ body {
   background-color: #f4f4f4; /* Lichte achtergrondkleur */
 }
 
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
 /* Dashboard styling */
 .dashboard {
   display: flex;
@@ -14,31 +24,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* Minimaal de hoogte van het scherm */
-  padding: 40px;
-  background-color: #ffffff; /* Witte achtergrond voor dashboard */
-  border-radius: 10px; /* Hoekafgeronde uitstraling */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lichte schaduw */
-  transition: box-shadow 0.3s ease;
+  padding: 20px;
 }
 
-.dashboard:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Intensere schaduw bij hover */
-}
-
-.dashboard h1 {
-  font-size: 2.5rem;
-  color: #1a73e8; /* Primaire kleur */
-  margin-bottom: 20px;
-}
-
-.dashboard p {
-  font-size: 1.2rem;
-  color: #666;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-/* Knop styling */
 .dashboard button {
   padding: 10px 20px;
   font-size: 1rem;
@@ -54,11 +42,26 @@ body {
   background-color: #155db2; /* Donkere schaduw bij hover */
 }
 
-/* Styling voor de Navbar */
-.navbar {
+/* Styling voor de Navbar en Footer */
+.navbar,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
-  background-color: #ffffff; /* Witte achtergrond voor de Navbar */
+  background-color: #fff; /* Witte achtergrond voor de Navbar en Footer */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Lichte schaduw */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  color: #666;
 }
 
 /* Responsive styling */
